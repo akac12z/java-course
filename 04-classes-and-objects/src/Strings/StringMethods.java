@@ -41,6 +41,7 @@ public class StringMethods {
         System.out.println("Dividido:");
 
         for (String part : parts) {
+            // este bucle es un forEach donde coge cada una de las parts, la asigna a part y la muestra
             System.out.println(part);
         }
 
