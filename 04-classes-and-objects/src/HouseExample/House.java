@@ -102,4 +102,15 @@ public class House {
         return size * size;
     }
 
+    // el scope es el contexto de las variables
+    // existen variables locales (aquellas que están declaradas en los objetos) y variables de clases (aquellas que están declaradas en la propia clase principal, en este caso sería door, windows..., los atributos) y variables estáticas
+
+    /*
+    * el ciclo de vida de las variables
+    * - las variables locales: existen durante la ejecución del métdodo donde se declaran
+    * - variables de instancia (las asociadas a las clases): existirán mientras la clase exista en memoria
+    * - variables de clase: existen durante toda la vida del programa
+    *
+    * las variables de clase son aquellas variables que pertenecen a todas las instancias (los objetos creados a través de ella) de la clase
+    * */
 }
