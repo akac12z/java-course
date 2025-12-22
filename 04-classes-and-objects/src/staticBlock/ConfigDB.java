@@ -29,4 +29,7 @@ public class ConfigDB {
     System.out.println(URL);
     System.out.println(USER);
     }
+    /*
+    * los métodos main SIEMPRE deberán ser estáticos para evitar crear instancias innecesarias
+    * */
 }
