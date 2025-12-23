@@ -13,6 +13,9 @@ public class Vehicle {
     }
 
     //métodos
+    public void start() { System.out.println("Arrancado!"); }
+    public void stop() { System.out.println("Parado!"); }
+
     //getter y setter brand
     public String getBrand() {
         return  brand;
